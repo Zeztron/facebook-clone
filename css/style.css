@@ -1,18 +1,70 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 html {
+    font-family: 'Raleway', sans-serif;
     font-size: 10px;
 }
 
-body {
-    font-family: 'Raleway', sans-serif;
-}
 
 #header {
     background: #415893;
+    color: white;
+    padding: 20px;
 }
 
+#header a {
+    text-decoration: none;
+    color: white;
+}
+
+#header .logo-area {
+    display: inline-block;
+    margin-right: 7rem;
+
+}
+
+#header .logo-area a{
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+#header .menu-area {
+    display: inline-block;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+}
+
+#header .menu-area ul li {
+    display: inline-block;
+    padding-right: 1.5rem;
+}
+
+#header .icons-area {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+#header .icons-area ul li {
+    display: inline-block;
+    padding-right: 1.4rem;
+}
+
+#header .icon-items {
+    display: inline-block;
+    padding-right: 2rem;
+    padding-left: 2.5rem;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+#header .icon-item-lock {
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+#header .search-area {
+    float: right;
+    border-bottom: 1px solid white;
+}
+
+#header .search-area ul li {
+    display: inline-block;
+}

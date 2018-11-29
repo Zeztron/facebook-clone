@@ -8,6 +8,10 @@ html {
     font-size: 10px;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 #header {
     background: #415893;
 }

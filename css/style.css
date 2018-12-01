@@ -154,9 +154,38 @@ html {
     text-decoration: none;
     padding: .5rem 1rem;
     margin-right: 1.5rem;
+    border-radius: 4px;
 }
 
 #top-area .profile-info .user-details a:hover{
     background: #2195f383;
     transition: all .3s ease-in-out;
+}
+
+/* ========================================================================== */
+/* Content */
+/* ========================================================================== */
+
+#content-area {
+
+}
+
+#content-area .side-column {
+    float: left;
+    width: 35%;
+    margin: 0 2.5%;
+    height: 60rem;
+    
+}
+
+#content-area .main-area {
+    float: left;
+    width: 55%;
+    margin: 0 2.5%;
+    height: 60rem;
+}
+
+.photos-img {
+    width: 33%;
+    height: 110px;
 }

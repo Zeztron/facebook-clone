@@ -287,7 +287,6 @@ a {
 #content-area .main-area .widget-box.post .head .user-img{
     display: inline-block;
     float: left;
-    margin: 0 1.5rem 0 0;
 }
 
 #content-area .main-area .widget-box.post .head .user-img img{
@@ -299,7 +298,13 @@ a {
 #content-area .main-area .widget-box.post .head .post-info {
     display: inline-block;
     float: left;
-    width: 80%;
+    width: 85%;
+}
+
+#content-area .main-area .widget-box.post .head .post-info:after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 #content-area .main-area .widget-box.post .head .post-info .user-info{

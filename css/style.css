@@ -7,6 +7,11 @@ html {
     font-size: 10px;
 }
 
+a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
 /* ========================================================================== */
 /*  HEADER */
 /* ========================================================================== */
@@ -204,10 +209,13 @@ html {
 #content-area .widget-box .head .widget-title {
     display: inline-block;
     padding: 0 0 0 1rem;
+    font-size: 1.4rem;
+    color: #707070;
 }
 
 #content-area .widget-box .body {
     padding: 1.5rem 0;
+    font-size: 1.2rem;
 }
 
 #content-area .side-column {
@@ -217,15 +225,91 @@ html {
     max-width: 380px;
 }
 
-
 #content-area .main-area {
     float: left;
     width: 55%;
     margin: 0 2.5%;
-  
 }
 
 #content-area .photos-img {
     width: 33%;
     height: 110px;
+}
+
+#content-area .main-area .widget-box.submenu{
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+#content-area .main-area .submenu ul{
+    padding: 0;
+    margin: 0;
+}
+
+#content-area .main-area .submenu ul li{
+    padding: 1rem;
+    display: inline-block;
+    width: 20%;
+    float: left;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    color: #707070;
+}
+
+#content-area .main-area .submenu ul li:nth-child(5){
+    padding: 2.6rem 0 2rem;
+}
+
+#content-area .main-area .submenu ul span{
+    display: block;
+    color: #707070;
+    margin: 1.5rem 0 0 0;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+
+#content-area .main-area .submenu ul li:hover{
+    border-bottom: 2px solid #2196f3;
+    color: #2196f3;
+}
+
+#content-area .main-area .submenu ul li i{
+    font-size: 1.5rem;
+}
+
+#content-area .main-area .widget-box.post {
+    overflow: auto;
+}
+
+#content-area .main-area .widget-box.post .head .user-img{
+    display: inline-block;
+    float: left;
+    margin: 0 1.5rem 0 0;
+}
+
+#content-area .main-area .widget-box.post .head .user-img img{
+    width: 4em;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+#content-area .main-area .widget-box.post .head .post-info {
+    display: inline-block;
+    float: left;
+    width: 80%;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .user-info{
+    display: block;
+    font-size: 1.4rem;
+    margin: .4rem 0 .6rem 0;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .post-date{
+    display: block;
+    color: #ababab;
+    font-size: 1.2rem;
 }
